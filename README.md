@@ -22,10 +22,13 @@ The user will always be able to access and change the parameters on it like emot
 
 
  the logo 
+ <br></br>
 ![](all%20images/1.png)
 
 all the tabls in php my admin 
+ <br></br>
 ![](all%20images/designer.PNG)
 
 all the application pages 
+ <br></br>
 ![](all%20images/screen_shot.PNG)
