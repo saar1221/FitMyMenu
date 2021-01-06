@@ -34,4 +34,4 @@ all the tabls in php my admin
 ![](all%20images/designer.PNG)
 
  <br></br>
- all the folder all images need to be in the whamp server inside(www) inside 
+ all the folder all images need to be in the whamp server inside(www) inside all the php files
