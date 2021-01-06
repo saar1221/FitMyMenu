@@ -20,4 +20,4 @@ he can click on the Add dose button where he will have to fill in details plus a
 will be sent for final approval by the admin. The user will receive a final confirmation message. 
 The user will always be able to access and change the parameters on it like emotional weight and food style.
 
-![](1.png)
+![](all images/1.png)
