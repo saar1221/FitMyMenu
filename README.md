@@ -19,5 +19,3 @@ If the user has prepared a dose that he wants to share,
 he can click on the Add dose button where he will have to fill in details plus a photo to take or a selection and all the information 
 will be sent for final approval by the admin. The user will receive a final confirmation message. 
 The user will always be able to access and change the parameters on it like emotional weight and food style.
-
-![](images/1.png)
