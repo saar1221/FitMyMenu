@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food2"
+
+    android:orientation="vertical"
+    tools:context=".ObjectiveActivity">
+
+
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:background="@drawable/round3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Write Your Weight Height And Age:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginEnd="150dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="150dp">
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:ems="3"
+                android:hint="Put Your Weight Kg"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:ems="3"
+                android:hint="Put Your Height Cm"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:ems="3"
+                android:hint="Put Your Age"
+                android:inputType="number" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center"
+            android:background="@drawable/round3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Select Gender"/>
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:paddingLeft="25dp"
+            android:paddingBottom="10dp"
+            android:gravity="left"
+            android:theme="@style/MyCheckbox"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Male" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Female" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_gravity="center"
+            android:background="@drawable/round3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Select Your Purpose:" />
+
+        <RadioGroup
+            android:id="@+id/rgPurpose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:paddingLeft="25dp"
+            android:paddingBottom="10dp"
+            android:gravity="left"
+            android:theme="@style/MyCheckbox"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gain Weight" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Losing Weight" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stable Weight" />
+        </RadioGroup>
+        <TextView
+            android:layout_gravity="center"
+            android:background="@drawable/round3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Select Level Of Activity?"/>
+<Spinner
+    android:id="@+id/leveActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="20dp"
+    android:autofillHints="Activity"
+    android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:background="@drawable/round3"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Do You Have A Diabetes?"/>
+
+    <RadioGroup
+        android:id="@+id/rgDiabetes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp"
+        android:paddingLeft="25dp"
+        android:paddingBottom="10dp"
+        android:gravity="left"
+        android:theme="@style/MyCheckbox"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Yes" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="No" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="@drawable/round3"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Select Which Type Of Food You Like:" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rgTypeFood"
+        android:paddingTop="5dp"
+        android:paddingLeft="25dp"
+        android:paddingBottom="10dp"
+        android:gravity="left"
+        android:theme="@style/MyCheckbox"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vegan" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lacto Ovo" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lacto" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ovo" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Raw Food" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Omnivorous" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="@drawable/round3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Select Which Allergies You Have:" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="left"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingRight="15dp"
+        android:gravity="left">
+
+
+    <CheckBox
+        android:id="@+id/cbLactose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckbox"
+        android:text="Lactose" />
+
+    <CheckBox
+        android:id="@+id/cbGluten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckbox"
+        android:text="Gluten" />
+
+    <CheckBox
+        android:id="@+id/cbSesame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckbox"
+        android:text="Sesame" />
+
+    <CheckBox
+        android:id="@+id/cbSoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckbox"
+        android:text="Soy" />
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:gravity="left">
+
+    <CheckBox
+        android:id="@+id/cbNuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckbox"
+        android:text="Nuts" />
+
+
+    <CheckBox
+        android:id="@+id/cbEgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckbox"
+        android:text="Egg" />
+
+    <CheckBox
+        android:id="@+id/cbFish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckbox"
+        android:text="Fish" />
+
+            <CheckBox
+                android:id="@+id/cbSugar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/MyCheckbox"
+                android:text="Sugar" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/round2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_Clear"
+            android:text="Clear All"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/round"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_start"
+            android:text="Start"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

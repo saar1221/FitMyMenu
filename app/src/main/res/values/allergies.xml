@@ -1,0 +1,118 @@
+<resources>
+
+<!-- להימנע ממצרי חלב גולמי  -->
+    <string-array name="Lactose">
+        <item>Milk</item>
+        <item>Mozzarella Cheese</item>
+        <item>Condensed Milk</item>
+        <item>Parmesan Cheese</item>
+        <item>Yogurt</item>
+        <item>Cottage Cheese</item>
+        <item>Cream</item>
+        <item>Cream Cheese</item>
+        <item>Cheddar Cheese</item>
+        <item>Gouda Cheese</item>
+        <item>Gruyere Cheese</item>
+        <item>Brie Cheese</item>
+        <item>Blue Cheese</item>
+        <item>Butter</item>
+        <item>Stilton Cheese</item>
+        <item>Double Cream</item>
+
+
+    </string-array>
+
+    <!--  הגלוטן מצוי בלחם, עוגות ועוגיות, פיתות ולחמניות ומיני מאפים אחרים אשר עשויים מחיטה ושמרים. -->
+    <string-array name="Gluten">
+        <item>Pita Bread</item>
+        <item>Beer</item>
+        <item>Bread</item>
+        <item>Breadcrumbs</item>
+        <item>Spaghetti Pasta</item>
+        <item>Fettuccine Pasta</item>
+        <item>Pasta</item>
+    </string-array>
+
+    <!-- חלבה וטחינה וחומוס. -->
+    <string-array name="Sesame">
+        <item>Sesame</item>
+        <item>Chickpeas</item>
+        <item>Halvah</item>
+        <item>Fenugreek</item>
+        <item>Fenugreek Seeds</item>
+        <item>Hummus</item>
+    </string-array>
+
+
+    <!-- חלב סויה, גבינת סויה, גלידת סויה, יוגורט סויה)
+        פולי סויה (אדממה)
+        טופו  -->
+    <string-array name="Soy">
+        <item>Soy Milk</item>
+        <item>Soya Sauce</item>
+        <item>Soy Sauce</item>
+        <item>Tofu</item>
+        <item>Soy</item>
+        <item>Broad Beans</item>
+        <item>Yogurt Soy</item>
+        <item>Hoisin Sauce</item>
+
+    </string-array>
+
+    <!--  ממיני האגוזים כמו שקדים, קשיו, לוז, פקאן, צנובר, אגוזי מלך ועוד. -->
+    <string-array name="Nuts">
+        <item>Pine Nuts</item>
+        <item>Pistachio</item>
+        <item>Muesli</item>
+        <item>Tonsils</item>
+        <item>Nutmeg</item>
+        <item>Cashew</item>
+        <item>Hazelnut</item>
+        <item>Walnuts</item>
+        <item>Nutmeg</item>
+        <item>Peanuts</item>
+        <item>Pecan</item>
+        <item>Nuts</item>
+        <item>Hung Curd</item>
+        <item>Peanut Butter</item>
+
+
+    </string-array>
+<!-- יש להימנע מאכלים המכילים אלבומין, גלובולין וליבטין. -->
+    <string-array name="Egg">
+        <item>Egg</item>
+    </string-array>
+
+    <!--    שרימפס וסרטנים. כל סוגי הדגים ומאכלי הים השונים. -->
+    <string-array name="Fish">
+        <item>Fish</item>
+        <item>Fish Fillet</item>
+        <item>Fish Sauce</item>
+        <item>Fish Stock</item>
+        <item>Cuttle Fish</item>
+        <item>Crab</item>
+        <item>Sardines</item>
+        <item>Salmon</item>
+        <item>Shellfish</item>
+        <item>Tuna Fish</item>
+        <item>Shellfish</item>
+        <item>Cat Fish</item>
+        <item>Shrimp</item>
+        <item>Mullet Fish</item>
+        <item>Pearl spot</item>
+        <item>Perch</item>
+        <item>Shark</item>
+        <item>Haddock</item>
+        <item>Herrings</item>
+    </string-array>
+
+
+    <string-array name="Sugar">
+        <item>Sugar</item>
+        <item>Sugar Candy</item>
+        <item>Icing Sugar</item>
+        <item>Cane Sugar</item>
+        <item>Brown Sugar</item>
+        <item>Castor Sugar</item>
+    </string-array>
+</resources>

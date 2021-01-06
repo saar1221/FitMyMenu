@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+     <!--
+    <include
+        android:id="@+id/toolbat"
+        layout="@layout/toolbar">
+    </include>
+    -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/saar"
+        android:scaleType="fitXY"/>
+    <RelativeLayout
+        android:id="@+id/welcomeSlidelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/round3">
+
+        <TextView
+            android:id="@+id/welcomeSlide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="false"
+            android:textSize="27sp"
+            android:padding="15dp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Welcome!" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/homeLayoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/menueslide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeSlidelayout"
+        android:background="@drawable/round3"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+
+        <LinearLayout
+        android:id="@+id/objectivelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:id="@+id/tvObjective"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="2500" />
+
+        <TextView
+            android:padding="5dp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Objective" />
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/minuslayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/objectivelayout"
+            android:layout_toEndOf="@+id/objectivelayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="-"/>
+        </LinearLayout>
+
+        <!--  left     -->
+        <!--  medale     -->
+        <LinearLayout
+            android:id="@+id/foodlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/minuslayout"
+            android:layout_toEndOf="@+id/minuslayout"
+            tools:ignore="NotSibling">
+
+            <TextView
+                android:id="@+id/tvFood"
+                android:padding="5dp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0"/>
+
+            <TextView
+                android:padding="5dp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="food" />
+        </LinearLayout>
+
+        <!--  medale     -->
+        <!--  right     -->
+
+        <LinearLayout
+            android:id="@+id/equallayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/foodlayout"
+            android:layout_toEndOf="@+id/foodlayout">
+
+            <TextView
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="="/>
+        </LinearLayout>
+        <!--  right     -->
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/equallayout"
+            android:layout_toEndOf="@+id/equallayout">
+
+            <TextView
+                android:id="@+id/tvRemaining"
+                android:padding="5dp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="2500"/>
+
+            <TextView
+                android:padding="5dp"
+                android:textColor="#222222"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remaining!" />
+        </LinearLayout>
+</LinearLayout>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/algolayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_below="@+id/menueslide"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textalgo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:background="@drawable/round4"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="If you want favorite meals from users who are the same as you click below!" />
+
+    </RelativeLayout>
+
+        <RelativeLayout
+    android:id="@+id/algolayoutbtn"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/algolayout">
+
+
+    <Button
+        android:id="@+id/btn_algoritem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/round2"
+        android:textAllCaps="false"
+        android:text="Click Here"/>
+</RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/homeLayoutDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/homeLayoutTop"
+      android:paddingBottom="5dp">
+
+
+
+<androidx.viewpager.widget.ViewPager
+    android:id="@+id/MealShowViewPager"
+    android:layout_centerInParent="true"
+    android:overScrollMode="never"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</androidx.viewpager.widget.ViewPager>
+
+
+
+    </LinearLayout>
+
+     <RelativeLayout
+         android:id="@+id/btnAddMenuLayout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:layout_below="@+id/welcomeSlidelayout"
+         android:paddingBottom="5dp"
+         android:gravity="center"
+         android:layout_gravity="center">
+
+         <Button
+             android:id="@+id/btn_addMenu"
+        android:layout_marginTop="480dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:background="@drawable/round"
+             android:text="add menu"
+             android:textColor="#ffffff" />
+
+     </RelativeLayout>
+
+
+</RelativeLayout>

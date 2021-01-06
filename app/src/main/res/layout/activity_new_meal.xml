@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newmealbg"
+    android:orientation="vertical"
+    tools:context=".NewMealActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    <ImageView
+        android:id="@+id/imageViewNewMeal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+
+        <Button
+        android:id="@+id/btn_ChangeImg"
+            android:background="@drawable/roundbtnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+          android:drawableLeft="@drawable/ic_insert_photo"
+        android:text=" Select Image"/>
+
+        <Button
+            android:id="@+id/btn_CaptureImg"
+            android:background="@drawable/roundbtnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/ic_icon_add_meal"
+            android:text=" Capture Image"/>
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <ScrollView
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollViewForAdmin">
+
+        <TextView
+            android:id="@+id/Ingredient_for_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:background="@drawable/round3"
+            android:textColor="@android:color/black"
+            android:text="Choose the ingredients in you'r meal and then write down the quantity in the numbers, according to what you write in your description it will refer to its measurement i.e. beef 300 and in the description will write beef 300g"
+            />
+        </ScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Scroll Down \n
+ |\n
+ |\n  V" />
+        <Button
+            android:id="@+id/btn_SelectIngredient"
+            android:background="@drawable/roundbtnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Select Ingredient">
+
+        </Button>
+        <EditText
+            android:layout_margin="2dp"
+            android:background="@drawable/round3"
+            android:id="@+id/name_NewMeal"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name Your Meal"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_margin="2dp"
+            android:background="@drawable/round3"
+            android:id="@+id/calories_NewMeal"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calories In Your Meal"
+            android:gravity="center"
+            android:inputType="numberDecimal"/>
+        <EditText
+            android:layout_margin="2dp"
+            android:background="@drawable/round3"
+            android:id="@+id/desc_NewMeal"
+            android:maxLines="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description Your Meal"
+            android:gravity="center"/>
+
+<!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/round3"
+            android:id="@+id/tvAllergies"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Select If You'r Meal Include Allergies:" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="15dp"
+                android:gravity="left">
+
+
+                <CheckBox
+                    android:id="@+id/cbLactose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyCheckbox"
+                    android:text="Lactose" />
+
+                <CheckBox
+                    android:id="@+id/cbGluten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyCheckbox"
+                    android:text="Gluten" />
+
+                <CheckBox
+                    android:id="@+id/cbSesame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyCheckbox"
+                    android:text="Sesame" />
+
+                <CheckBox
+                    android:id="@+id/cbSoy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyCheckbox"
+                    android:text="Soy" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:gravity="left">
+
+                <CheckBox
+                    android:id="@+id/cbNuts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyCheckbox"
+                    android:text="Nuts" />
+
+
+                <CheckBox
+                    android:id="@+id/cbEgg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyCheckbox"
+                    android:text="Egg" />
+
+                <CheckBox
+                    android:id="@+id/cbFish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyCheckbox"
+                    android:text="Fish" />
+
+                <CheckBox
+                    android:id="@+id/cbSugar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/MyCheckbox"
+                    android:text="Sugar" />
+
+            </LinearLayout>
+        </LinearLayout>
+-->
+
+        <TextView
+            android:layout_gravity="center"
+            android:background="@drawable/round3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Your Meal Dangerous For Diabetics?"/>
+
+        <RadioGroup
+            android:id="@+id/rgDiabetes2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:paddingLeft="25dp"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:theme="@style/MyCheckbox"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Yes" />
+
+            <RadioButton
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="No" />
+            <RadioButton
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Don't Know" />
+        </RadioGroup>
+        <TextView
+            android:layout_gravity="center"
+            android:background="@drawable/round3"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Select Which Type Of Food You'r Meal:" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rgTypeFood2"
+
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="left"
+            android:theme="@style/MyCheckbox"
+            android:orientation="vertical">
+
+
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Vegan" />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Lacto Ovo" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lacto" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Ovo" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raw Food" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Omnivorous" />
+
+
+        </RadioGroup>
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_adminBackToCategories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round"
+            android:layout_marginRight="10dp"
+            android:text="back to Categories"/>
+        <Button
+            android:id="@+id/btn_sendAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round"
+            android:layout_marginRight="10dp"
+            android:text="Send Admin">
+
+        </Button>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center">
+        <Button
+            android:id="@+id/btn_adminConfirmNextMeal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/round"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Confirm and continue">
+
+        </Button>
+
+        <Button
+
+            android:id="@+id/btn_adminDeleteMeal"
+            android:background="@drawable/round2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Delete Meal">
+
+        </Button>
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:padding="5dp">
+    <solid android:color="#ffffff"/> <!-- this one is ths color of the add menu Button   and b1 befor the color value is doing him vanish d1ffffff-->
+    <corners
+        android:bottomRightRadius="0dp"
+        android:bottomLeftRadius="0dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"/>
+    android:
+</shape>
