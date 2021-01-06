@@ -25,7 +25,7 @@ The user will always be able to access and change the parameters on it like emot
 ![](all%20images/1.png)
 
 all the tabls in php my admin 
-![](all%20images/designer.png)
+![](all%20images/designer.PNG)
 
 all the application pages 
-![](all%20images/screen_shot.png)
+![](all%20images/screen_shot.PNG)
