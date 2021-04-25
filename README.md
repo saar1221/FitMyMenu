@@ -5,9 +5,9 @@ Login page
  <br></br>
 ![](all%20images/login.PNG)
 
-Register page
+Rigester page
  <br></br>
-![](all%20images/register.PNG)
+![](all%20images/rigester.PNG)
 
 Home page
  <br></br>
