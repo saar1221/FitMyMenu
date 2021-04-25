@@ -1,4 +1,11 @@
 # FitMyMenu
+#We will start with pictures of the app and then an explanation of what the purpose of the app is
+
+all the application pages 
+ <br></br>
+![](all%20images/objective.PNG)
+
+
 An app that deals with the subject of food will already archive on it what it has and what its capabilities are
 the First of all you should know that I used a phpmyadmin database which has all the tables in the image and a folder 
 of images that contain all the packet images.
@@ -25,9 +32,7 @@ The user will always be able to access and change the parameters on it like emot
  <br></br>
 ![](all%20images/1.png)
 
-all the application pages 
- <br></br>
-![](all%20images/objective.PNG)
+
 
 all the tabls in php my admin 
  <br></br>
