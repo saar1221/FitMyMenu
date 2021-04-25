@@ -1,10 +1,11 @@
 # FitMyMenu
 We will start with pictures of the app and then an explanation of what the purpose of the app is
 
-Login page
+<center>
+<h3>Login page</h3>
  <br></br>
 ![](all%20images/login.PNG)
-
+</center>
 Rigester page
  <br></br>
 ![](all%20images/rigester.PNG)
