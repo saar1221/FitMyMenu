@@ -1,33 +1,29 @@
 # FitMyMenu
 We will start with pictures of the app and then an explanation of what the purpose of the app is
 
-<style>
-h1 {text-align: center;}
-p {text-align: center;}
-div {text-align: center;}
 
 <h3>Login page</h3>
  <br></br>
 ![](all%20images/login.PNG)
-</style>
 
-Rigester page
+
+<h3>Rigester page</h3>
  <br></br>
 ![](all%20images/rigester.PNG)
 
-Home page
+<h3>Home page</h3>
  <br></br>
 ![](all%20images/home.PNG)
 
-Objective page
+<h3>Objective page</h3>
  <br></br>
 ![](all%20images/objective.PNG)
 
-Nea Meal page
+<h3>Nea Meal page</h3>
  <br></br>
 ![](all%20images/new%20meal.PNG)
 
-Menu page
+<h3>Menu page</h3>
  <br></br>
 ![](all%20images/menu.PNG)
 
