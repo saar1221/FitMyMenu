@@ -10,22 +10,27 @@ We will start with pictures of the app and then an explanation of what the purpo
 
 <h3>Rigester page</h3>
  <br></br>
+ 
 ![](all%20images/rigester.PNG)
 
 <h3>Home page</h3>
  <br></br>
+ 
 ![](all%20images/home.PNG)
 
 <h3>Objective page</h3>
  <br></br>
+ 
 ![](all%20images/objective.PNG)
 
 <h3>Nea Meal page</h3>
  <br></br>
+ 
 ![](all%20images/new%20meal.PNG)
 
 <h3>Menu page</h3>
  <br></br>
+ 
 ![](all%20images/menu.PNG)
 
 
