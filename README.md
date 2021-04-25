@@ -1,11 +1,16 @@
 # FitMyMenu
 We will start with pictures of the app and then an explanation of what the purpose of the app is
 
-<center>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
 <h3>Login page</h3>
  <br></br>
 ![](all%20images/login.PNG)
-</center>
+</style>
+
 Rigester page
  <br></br>
 ![](all%20images/rigester.PNG)
