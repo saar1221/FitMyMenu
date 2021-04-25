@@ -2,8 +2,9 @@
 We will start with pictures of the app and then an explanation of what the purpose of the app is
 
 
-<h3>Login page<h3>
+<h3>Login page</h3>
  <br></br>
+ 
 ![](all%20images/login.PNG)
 
 
