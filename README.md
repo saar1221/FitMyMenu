@@ -1,9 +1,29 @@
 # FitMyMenu
-#We will start with pictures of the app and then an explanation of what the purpose of the app is
+We will start with pictures of the app and then an explanation of what the purpose of the app is
 
-all the application pages 
+Login page
+ <br></br>
+![](all%20images/login.PNG)
+
+Register page
+ <br></br>
+![](all%20images/register.PNG)
+
+Home page
+ <br></br>
+![](all%20images/home.PNG)
+
+Objective page
  <br></br>
 ![](all%20images/objective.PNG)
+
+Nea Meal page
+ <br></br>
+![](all%20images/new%20meal.PNG)
+
+Menu page
+ <br></br>
+![](all%20images/menu.PNG)
 
 
 An app that deals with the subject of food will already archive on it what it has and what its capabilities are
