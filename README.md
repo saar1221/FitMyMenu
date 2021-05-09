@@ -1,5 +1,5 @@
 # FitMyMenu
-We will start with pictures of the app and then an explanation of what the purpose of the app is
+I will start with pictures of the app and then an explanation of what the purpose of the app is
 
 
 <h3>Login page</h3>
