@@ -3,7 +3,7 @@ I will start with pictures of the app and then an explanation of what the purpos
 
 
 <h3>Login page</h3>
- <br></br>
+ <br>
  The login page has 2 buttons to continue to the next pages and 2 text entries to complete the data login will be verified and encrypted from the database by using PHP pages and converting the data through JSON 
 <h3></h3>
 ![](all%20images/login.PNG)
