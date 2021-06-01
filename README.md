@@ -26,7 +26,7 @@ On the objective page, the user will enter all the data required to calculate a 
 ![](all%20images/objective.PNG)
 
 <h3>Nea Meal page</h3>
- <br></br>
+On the new meal page the user can take a photo and share by selecting components and quantity of component the dose he has built and it will be forwarded to admin in order to confirm the final dose and will also upload to the database
  
 ![](all%20images/new%20meal.PNG)
 
