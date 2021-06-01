@@ -10,7 +10,7 @@ I will start with pictures of the app and then an explanation of what the purpos
 
 
 <h3>Rigester page</h3>
- <br></br>
+The registration page has 4 text boxes that match the requirements and this data also links to the database and will then go to the page for further personal details.
  
 ![](all%20images/rigester.PNG)
 
