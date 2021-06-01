@@ -21,7 +21,7 @@ Share a dish prepared by the user.
 ![](all%20images/home.PNG)
 
 <h3>Objective page</h3>
- <br></br>
+On the objective page, the user will enter all the data required to calculate a normal BMI and daily intake of calories so that the user knows not to exceed
  
 ![](all%20images/objective.PNG)
 
