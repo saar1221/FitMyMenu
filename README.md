@@ -15,7 +15,8 @@ The registration page has 4 text boxes that match the requirements and this data
 ![](all%20images/rigester.PNG)
 
 <h3>Home page</h3>
- <br></br>
+The home page has a display of dishes serving the calories relevant to that user and two buttons for adding a dish or using an algorithm that will find him favorite dishes that other users have chosen and identify him using the K-means algorithm.
+Share a dish prepared by the user.
  
 ![](all%20images/home.PNG)
 
