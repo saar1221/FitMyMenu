@@ -31,7 +31,7 @@ On the new meal page the user can take a photo and share by selecting components
 ![](all%20images/new%20meal.PNG)
 
 <h3>Menu page</h3>
- <br></br>
+On the menu page the user views all the dishes he has added and in fact in his menu here he will choose if he wants to remove the dish from the menu and the calorie bar will be updated or click on the dish and thus will show how to prepare the dish
  
 ![](all%20images/menu.PNG)
 
