@@ -64,7 +64,7 @@ On the menu page the user views all the dishes he has added and in fact in his m
 
 
 
-all the tabls in php my admin 
+all the tabls in php my admin
  <br></br>
 ![](all%20images/designer.PNG)
 
